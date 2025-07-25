@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nearby Café Finder</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Nearby Café Finder</h1>
+    <p>Find cafés near you and check your network quality.</p>
+  </header>
+
+  <section id="network-status"></section>
+
+  <button id="locate-btn">📍 Find My Location</button>
+  <div class="map-container">
+    <canvas id="mapCanvas" width="500" height="400"></canvas>
+  </div>
+
+  <section id="cafe-list">
+    <h2>Cafés Near You</h2>
+    <ul id="cafes"></ul>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
